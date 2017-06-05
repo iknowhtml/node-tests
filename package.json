@@ -7,7 +7,8 @@
   },
   "main": "app.js",
   "scripts": {
-    "test": "mocha **/*.test.js"
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"yarn test\""
   },
   "repository": "https://github.com/iknowhtml/node-tests.git",
   "author": "Aki Gao",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-plugin-node": "^4.2.2",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0"
   }
 }
