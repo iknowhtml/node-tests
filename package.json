@@ -3,14 +3,18 @@
   "description": "A basic Node application to run simple tests",
   "version": "1.0.0",
   "engines": {
-    "node" : ">=6.0.0"
+    "node": ">=7.0.0"
   },
   "main": "app.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
   "repository": "https://github.com/iknowhtml/node-tests.git",
   "author": "Aki Gao",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^3.19.0",
-    "eslint-plugin-node": "^4.2.2"
+    "eslint-plugin-node": "^4.2.2",
+    "mocha": "^3.4.2"
   }
 }
