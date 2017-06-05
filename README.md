@@ -1,11 +1,11 @@
 # Node Template
-A basic template for Node applications with linting.
+A basic Node application to run simple tests.
 
 #### To use
 Checkout this repo, install dependencies, then run the following commands in the terminal.
 
 ```
-> git clone https://github.com/iknowhtml/node-template.git
-> cd node-template
+> git clone https://github.com/iknowhtml/node-tests.git
+> cd node-tests
 > yarn install
 ```

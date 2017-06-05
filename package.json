@@ -1,12 +1,12 @@
 {
-  "name": "node-template",
-  "description": "A basic template for Node applications with linting",
+  "name": "node-tests",
+  "description": "A basic Node application to run simple tests",
   "version": "1.0.0",
   "engines": {
     "node" : ">=6.0.0"
   },
   "main": "app.js",
-  "repository": "https://github.com/iknowhtml/node-template.git",
+  "repository": "https://github.com/iknowhtml/node-tests.git",
   "author": "Aki Gao",
   "license": "ISC",
   "devDependencies": {
