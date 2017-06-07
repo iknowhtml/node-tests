@@ -1,4 +1,5 @@
 const utils = require('./utils');
+const chai = require('chai');
 
 it('should add two numbers', () => {
   const res = utils.add(33, 11);
