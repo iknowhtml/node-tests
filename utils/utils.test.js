@@ -6,9 +6,23 @@ it('should add two numbers', () => {
   expect(res).to.equal(44).to.be.a('number');
 });
 
+it('should async add two numbers', done => {
+  utils.asyncAdd(4, 3, sum => {
+    expect(sum).to.equal(7).to.be.a('number');
+    done();
+  });
+});
+
 it('should square a number', () => {
   const res = utils.square(3);
   expect(res).to.equal(9).to.be.a('number');
+});
+
+it('should async square a number', done => {
+  utils.asyncSquare(5, res => {
+    expect(res).to.equal(25).to.be.a('number');
+    done();
+  });
 });
 
 it('should verify first and last name are set', () => {
@@ -16,7 +30,7 @@ it('should verify first and last name are set', () => {
   const res = utils.setName(user, 'Aki Gao');
   expect(res).to.deep.include({
     firstName: 'Aki',
-    lastName: 'Gao'
+    lastName: 'Gao',
   });
 });
 
