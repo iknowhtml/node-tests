@@ -18,7 +18,8 @@
     "eslint": "^3.19.0",
     "eslint-plugin-node": "^4.2.2",
     "mocha": "^3.4.2",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
   },
   "dependencies": {
     "express": "^4.15.3"
