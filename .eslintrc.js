@@ -6,7 +6,7 @@ module.exports = {
     'node/no-unpublished-require': [
       'error',
       {
-        allowModules: ['chai','supertest']
+        allowModules: ['chai','supertest', 'sinon','sinon-chai']
       }
     ],
     'no-console': 0,
